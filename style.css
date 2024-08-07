@@ -1,0 +1,150 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+#logo {
+  color: #ff385c;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-collapse {
+    margin-top: 20px;
+  }
+}
+
+#search-container {
+  box-shadow: rgb(0 0 0 / 8%) 0px 1px 12px !important;
+  min-height: 75px;
+}
+
+.search-form {
+  position: relative;
+}
+
+#location-input {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 20px;
+  min-width: 400px;
+  transition: all 0.2s ease-in-out;
+}
+
+#location-input:focus {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.35);
+}
+
+#search-button {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  border-radius: 100%;
+  background-color: #ff385c;
+  color: white;
+  border: none;
+  height: 37px;
+  width: 37px;
+  font-size: 18px;
+}
+
+#save-button {
+  top: 5px;
+  right: 5px;
+  background-color: #ff385c;
+  color: white;
+  border: none;
+  outline: none;
+  width: 100px;
+  font-size: 15px;
+
+}
+
+button#type-dropdown {
+  border-radius: 40px;
+  background-color: white;
+  color: rgb(34, 34, 34);
+  border: 1px solid #9d9d9d;
+}
+
+button#type-dropdown:hover {
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+ul.dropdown-menu.show {
+  top: 5px !important;
+  border-radius: 20px;
+	padding: 10px;
+}
+
+#filter-container {
+  margin: 10px;
+}
+
+#filter-container > * {
+  display: inline-block;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.listing .card-title {
+  font-size: clamp(15px, 2vw, 18px);
+  color: #222222;
+}
+
+.card-text {
+  color: #717171;
+  font-size: clamp(14px, 2vw, 16px);
+}
+
+.price {
+  color: rgb(34, 34, 34);
+}
+
+.dropdown-item span {
+	margin-left: 10px;
+}
+.form-range::-webkit-slider-thumb {
+  background: #ff385c !important;
+}
+
+.form-range::-moz-range-thumb {
+  background: #ff385c !important;
+}
+
+.form-range::-ms-thumb {
+  background: #ff385c !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.userMessage {
+  text-align: center;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+
+
