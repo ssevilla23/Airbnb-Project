@@ -9,9 +9,6 @@ function filterByCity(targetCity, listingCityArray) {
 }
 
 function filterByPrice(minPrice, maxPrice, listingPriceArray) {
-  // Note: Comment out the following line when you start working on this function!
-  // return [...listingPriceArray.keys()]
-  
   let priceIndices = [];
   let i = 0;
   while (i < listingPriceArray.length){
@@ -23,11 +20,8 @@ function filterByPrice(minPrice, maxPrice, listingPriceArray) {
   return priceIndices;
 }
 
-// LevelUp!
 function filterByTypes(targetTypes, listingTypeArray) {
-  // Note: Comment out the following line when you attempt the LevelUp!
-  // return [...listingTypeArray.keys()]
-  
+
   let typeIndices = [];
   for (let i = 0; i < listingTypeArray.length; i++) {
     if (targetTypes.includes(listingTypeArray[i])) {
